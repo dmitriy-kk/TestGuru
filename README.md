@@ -1,9 +1,6 @@
-# README
+This application is designed for creating, managing, and executing various tests. The tests consist of questions and answer options.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+* List of entities test, question, answer, cetegory, result, users, creator_test, administrator
 
 * Ruby version
 
