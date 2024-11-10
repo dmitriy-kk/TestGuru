@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.2].define(version: 2024_11_07_114412) do
   end
 
   create_table "categories", force: :cascade do |t|
-    t.string "title"
+    t.string "title", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -46,9 +46,9 @@ ActiveRecord::Schema[7.2].define(version: 2024_11_07_114412) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.integer "age"
-    t.string "gender"
+    t.string "name", null: false
+    t.integer "age", null: false
+    t.string "gender", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
