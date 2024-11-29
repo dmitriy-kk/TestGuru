@@ -1,6 +1,6 @@
 This application is designed for creating, managing, and executing various tests. The tests consist of questions and answer options.
 
-* List of entities test, question, answer, cetegory, result, users, creator_test, administrator
+* List of entities test, question, answer, cetegory, result, users, administrator
 
 * Ruby version
 
