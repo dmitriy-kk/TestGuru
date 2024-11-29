@@ -22,8 +22,8 @@ module TestGuru
     # in config/environments, which are processed later.
     #
     config.time_zone = "Ekaterinburg"
-    config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
     config.i18n.default_locale = :ru
+    config.i18n.fallbacks = %i[en]
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
